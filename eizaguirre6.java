@@ -31,6 +31,8 @@ public class eizaguirre6
 
 		 total_3  = x + y - x / y;
                 vtotal_3  = w + z - w / z;
+		total_4 = x / y * y;
+                vtotal_4 = w / z * z;
 
 
 		System.out.println("---- Expression 1 ----");
@@ -45,6 +47,10 @@ public class eizaguirre6
 		 System.out.println("int total = " + total_3);
                 System.out.println("double total = " + vtotal_3);
 
+		 System.out.println("---- Extra Credit ----");
+                 System.out.println("int total = " + total_4);
+                System.out.println("double total = " + vtotal_4);
+		
 
 	}
 }
