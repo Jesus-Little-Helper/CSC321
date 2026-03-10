@@ -17,11 +17,13 @@ int main(void)
 	int  total_1 =  0;
 	int  total_2 =  0;
 	int  total_3 =  0;
+	int  total_4 =  0;
 
 
 	double vtotal_1 = 0;
 	double vtotal_2 = 0;
 	double vtotal_3 = 0;
+	double vtotal_4 = 0;
 
 	
 	//total One
@@ -36,6 +38,10 @@ int main(void)
 	total_3 = x + y - x / y;
 	vtotal_3 = w + z - w / z;
 
+	//Extra Credit 
+    	 total_4 = x / y * y;
+   	 vtotal_4 = w / z * z;
+
 	//expression display
 	 printf("\n ******* First Expression ******* \n ");
 	printf("int total = %d \n", total_1);
@@ -49,6 +55,11 @@ int main(void)
 	printf("\n ******* Third Expression *******  \n ");
 	printf("int total = %d \n", total_3);
         printf("double total = %lf \n", vtotal_3);
+
+
+	printf("\n ******* Extra Credit  *******  \n ");
+        printf("int total = %d \n", total_4);
+        printf("double total = %lf \n", vtotal_4);
 
 
 	return EXIT_SUCCESS;
