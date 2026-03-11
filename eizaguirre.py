@@ -1,35 +1,33 @@
-#Name: Esthepanie Izaguirre
-#CSC 321 
-#Lab 07
+#Esthepanie Izaguirre
+#CSC 321
+#lab 08
 
+userinput = input("Enter your name: ")
+print("Your name is ",userinput)
 
-#Variables
-w = "Esthepanie"    #String
-x = 9       #int
-y = 5.5     #Float
+#guessing
+num = 6
+guess = int(input("Guess a number between 0 - 9: "))
 
-
-#Variable Comparison
-#int
-if x > 5:
-    print("X should be GREATER than 7")
-elif == 5:
-    print("X is EQUALS to 7")
+if guess < num:
+    print("Your guess is LOWER then my number")
+    print("you lose!!!")
+elif guess > num:
+    print("Your guess is Higher then my number")
+    print("you lose!!!")
 else:
-    print("X is LESS than 7")
+    print("Congratulations! You Win")
 
-#float
-if w === "Esthepanie":
-    print("The NAme is Esthepanie")
-elif w < "Esthepanie":
-    print("The w comes before Esthepanie")
-else:
-    print("The nam ecomes after Esthepanie")
+x = 0
+z = guess
+x = 5 + z
+print("x = ", x)
 
-#Float
-if y > 5.5:
-    print("Y should be GREATER than 5.5")
-elif y == 5.5:
-    print("Y is EQUALS to 5.5")
-else:
-    print("Y is LESS than 5.5")
+#for loop
+for i in range(5):
+    print("Why can't your nose be 12 inches long? Because then it would be a foot!!!!!!")
+
+#while loop
+while(x >0):
+    print("TACOS")
+    x = x - 1
