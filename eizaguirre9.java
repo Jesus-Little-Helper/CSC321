@@ -1,3 +1,7 @@
+/*Name: Esthepanie Izaguirre
+* CSC 321
+* Lab 09 */
+
 import java.util.Scanner;
 import java.util.Random;
 
